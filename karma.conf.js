@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/Angular-Audio-Player'),
+      dir: require('path').join(__dirname, './coverage/Angular-Drag-Drop'),
       subdir: '.',
       reporters: [
         { type: 'html' },
